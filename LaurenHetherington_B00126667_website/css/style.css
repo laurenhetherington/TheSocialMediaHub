@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;}
+
+body {
+	margin: 0;
+	background: #ffe347;
+	color: #ffffff;
+	font-family: sans-serif;}
+
+main {color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;}
+
+h1 {font-family: cursive;
+    color: #000;
+    text-align: center;
+    text-shadow: 5px 4px #d9bbf9;}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;}
+
+
+.main-header {
+  margin: auto;
+  width: 100%;
+  height: 200px;
+  padding: 18px;
+  background-image: linear-gradient(#6457a6, #d9bbf9, #ffe347);}
+
+  .main-header:after {
+    content: " ";
+    display: table;
+    clear: both;}
+
+aside {position: absolute;
+        width: 120px;
+        padding-left: 3%;
+        float: left;}
+
+img {width: 90px;}
+
+#images {list-style: none;}
+
+footer {margin-top: 420px;
+        width: 100%;
+        min-height: 200px;
+        background-image: linear-gradient(#ffe347, #d9bbf9, #6457a6);}
+
+
+.footer {font-size: 15px;
+        list-style: none;
+        text-align: center;
+        padding-bottom: 35px;}
+        
+
+
+
+.sitemap {list-style-type: square;} 
+
+
+p {color: #000;
+   text-align: center;}
+
+/* Colours 
+yellow - #ffe347
+purple - #6457a6
+lilac - #d9bbf9
+blue - #8eb8e5
+green - #b9d8c2  */
+
+
+/* Table CSS */
+
+table {border-collapse: collapse;
+        width: 70%;
+        background-color: #b9d8c2;
+        margin-left: 130px;
+        color: #000;}
+
+table, td, th {border: 2px solid #000;}
+
+td {font-size: 18px;}
+
+
+
+
+/* Nav CSS */
+
+.main-nav,
+.drop-nav {
+  background: #8eb8e5;}
+
+.main-nav {
+  position: absolute;
+  left: 230px;
+  border-radius: 40px;
+  margin-top: 8px;
+  border: solid 1px #000000;}
+
+.main-nav > li {
+    float: left;
+    border-left: solid 1px #000000;}
+
+.main-nav li:first-child {
+    border-left: none;}
+
+.main-nav a {
+    color: #fff;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;}
+
+
+.dropdown{
+    position: relative;}
+
+.dropdown:after {
+    content: "\25BC";
+    font-size: .5em;
+    display: block;
+    position: absolute;
+    top: 38%;
+    right: 12%;}
+
+.drop-nav{
+    position: absolute;
+    display: none;}
+
+.drop-nav li {
+    border-bottom: 1px solid rgba(255,255,255,.2);}
+
+
+.dropdown:hover > .drop-nav {
+    display: block;
+    background-color: #b9d8c2;}
+
+
+
+/* Form CSS */
+
+.form{
+	max-width: 450px;
+    padding-left: 430px;
+	font-family: monospace}
+
+.formheading{
+    color: #000;
+    font-size: 35px;
+    text-align: center;}
+
+.form label{
+	display:block;
+    margin-bottom: 10px;}
+
+.form label > span{
+	float: left;
+	width: 500px;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;}
+
+.form fieldset{
+	border-radius: 70px;
+	margin: 0px 0px 10px 0px;
+	padding: 25px;
+    background: #d9bbf9;}
+
+
+
+.form textarea{
+	width:250px;
+	height:100px;}
+
+.form input[type=text],
+.form input[type=date],
+.form input[type=datetime],
+.form input[type=number],
+.form input[type=search],
+.form input[type=time],
+.form input[type=url],
+.form input[type=email],
+.form select, 
+
+.form textarea{
+	border-radius: 5px;
+	color: #000;
+	padding: 5px 8px 5px 8px;
+	background: #fff;
+	width:50%;}
+
+.form input[type=submit],
+.form input[type=button]{
+	background: #6457a6;
+	padding: 5px 15px 5px 15px;
+	color: #fff;
+    border-radius: 3px;
+    margin-left: 215px}
+	
+
+.form .required{
+	color:red;
+	font-weight:normal;}
+
+
+
+
